@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+
+.Admin_Panel {
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: rgb(241, 241, 241); */
+    background-color: white;
+
+}
+
+.admin_panel_heading {
+
+    -webkit-box-shadow: 0px 6px 21px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 21px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 21px -1px rgba(0, 0, 0, 0.75);
+
+    border-radius: 0px 0px 10px 10px;
+
+    position: sticky;
+    top: 0;
+
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.navigate_admin_db_right {
+
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    right: 0;
+}
+
+
+.navigate_admin_db_left {
+
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    left: 0;
+}
+
+.button-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-wrapper>button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+    /* background-color: #25f53d; */
+    color: black
+}
+
+table,
+td,
+th {
+    border: 2px solid rgb(27, 26, 26);
+    border-collapse: collapse;
+}
+
+.admin_table_row:nth-child(even) {
+    background-color: rgb(186, 186, 186);
+}
+
+.admin_table_row:nth-child(odd)>td,
+thead {
+    color: black
+}
+
+#admin_table_head,
+#admin_table_head_action {
+    color: black;
+    font-weight: bold;
+}
+
+.admin_panel_heading>p {
+
+    font-family: ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form_addfield {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 16px;
+
+    width: 75%;
+
+}
+
+.form_addfield>input,
+select {
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.form_addfield>input::placeholder {
+
+    font-family: ubuntu;
+    font-size: 14px;
+}
+
+.form_addfield>#input_field:focus {
+    outline: none;
+    border: 3px solid #34d93f;
+    border-radius: 5px;
+
+    font-family: ubuntu;
+    font-size: 16px;
+    /* font-weight: bold; */
+
+}
+
+#input_field:focus::placeholder {
+    color: transparent;
+    text-align: center;
+    /* cursor: bold; */
+
+}
+
+
+
+
+.Admin_Panel::-webkit-scrollbar {
+    display: none;
+}
+
+
+select {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    width: 180px;
+}
+
+select:focus>option:checked,
+select option:hover {
+    border: 2px solid #34d93f;
+    background: #00b32a;
+    color: white
+}
+
+select:focus {
+    width: 250px;
+}
+
+#input_field {
+
+    padding: 6px;
+
+
+}
+
+
+#button__add {
+
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+
+    border-radius: 5px;
+    border: solid #00b32a 2.5px;
+
+    font-family: Arial;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 11px 24px 10px 20px;
+    width: 150px;
+
+    text-decoration: none;
+
+    background: #34d93f;
+
+    cursor: pointer;
+}
+
+#button__add:hover {
+
+    background: #25f53d;
+    text-decoration: none;
+
+}
+
+.admin_table {
+
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#admin_table_cell {
+
+    width: 170px;
+}
+
+#admin_table_cell_action {
+
+    width: 220px;
+}
+
+.Admin_setting {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.login_setting {
+    width: 50%
+}

@@ -1,0 +1,93 @@
+#edit_admin_table_cell > input, #edit_admin_table_cell >select
+{
+    border-radius: 5px;
+    border: solid #34c6d9 2.5px;
+
+    padding:10px;
+
+    background-color: transparent;
+
+    width:130px
+
+
+}
+
+
+
+#edit_admin_table_cell > input:focus, #edit_admin_table_cell >select:focus{
+
+    outline: none;
+    border: solid #34c6d9 3px;
+}
+
+#edit_admin_table_row {
+
+    height:76px;
+}
+
+.select_edit:focus{
+
+    width:180px;
+}
+
+.index_table{
+
+    color: black;
+}
+
+
+#button_save {
+
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+
+    border-radius: 5px;
+    border: solid #1b00b3 2.5px;
+
+    font-family: Arial;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 11px 24px 10px 20px;
+
+    background: #4734d9;
+
+    cursor :pointer;
+    
+}
+  
+#button_save:hover {
+
+    background: #3f27f5;
+    
+}
+
+
+#button_cancel {
+
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+
+    border-radius: 5px;
+    border: solid #b3ad00 2.5px;
+
+    font-family: Arial;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 11px 24px 10px 20px;
+
+    background: #e7de36;
+
+    cursor :pointer;
+    
+}
+  
+#button_cancel:hover {
+
+    background: #f5f527;
+    
+}
+
